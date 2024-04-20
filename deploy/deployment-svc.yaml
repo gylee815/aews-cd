@@ -4,6 +4,7 @@ metadata:
   name: myweb
   labels:
     gitadd : webedit
+    add3: changed-desired-manifest
 spec:
   replicas: 3
   selector:
