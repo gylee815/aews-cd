@@ -18,6 +18,8 @@ pipeline {
     stages {
         stage('Example') {
             steps {
+                echo "test"
+
                 echo "Hello ${params.PERSON}"
 
                 echo "Biography: ${params.BIOGRAPHY}"
